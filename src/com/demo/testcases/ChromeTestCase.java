@@ -22,7 +22,7 @@ public class ChromeTestCase {
 		{
 			
 		}
-		driver.get("http://www.google.com");
+		driver.get("http://www.google.com");//new changes
 		WebElement element = driver.findElement(By.name("q"));
         element.sendKeys("selenium");
         Thread.sleep(4000);
