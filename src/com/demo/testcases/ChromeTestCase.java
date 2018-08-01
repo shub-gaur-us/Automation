@@ -25,7 +25,7 @@ public class ChromeTestCase {
 		driver.get("http://www.google.com");
 		WebElement element = driver.findElement(By.name("q"));
         element.sendKeys("selenium");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         element.submit();
 	}
 
